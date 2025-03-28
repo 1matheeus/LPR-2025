@@ -13,8 +13,8 @@ ignorando o número 7 digitado.
 */
 
 Console.WriteLine("Insira o número de elementos para calcular a média aritmética: ");
-int n = int.Parse(Console.ReadLine());
-int i = 0;
+int n = int.Parse(Console.ReadLine()); //números a serem digitados
+int i = 0; //quantidade de números digitados
 int soma = 0;
 int contador = 0;
 while (i < n)
@@ -24,7 +24,7 @@ while (i < n)
     if (num % 2 == 0)
     {
         soma += num;
-        contador++;
+        contador++; //contador de números pares
     }
     i++;
 }
